@@ -10,6 +10,7 @@ import { map } from 'rxjs/operators';
 })
 
 export class ProductService {
+  // Url for SB Api
   private baseUrl = 'http://localhost:8080/api/products';
 
   // injects httpClient

@@ -12,7 +12,8 @@ import { ProductService } from 'src/app/services/product.service';
 export class ProductListComponent implements OnInit {
 
   products: Product[] = [];
-
+  
+// Injects product service
   constructor(private ProductService: ProductService){}
 
   ngOnInit(){
